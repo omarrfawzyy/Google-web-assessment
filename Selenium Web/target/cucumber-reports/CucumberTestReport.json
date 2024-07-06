@@ -1,0 +1,170 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-05-25T15:04:56.233Z",
+        "line": 4,
+        "name": "Verify that movie name in home screen should be the same in the movie screen",
+        "description": "",
+        "id": "verify-that-movie-name-in-home-screen-should-be-the-same-in-the-movie-screen;verify-that-movie-name-in-home-screen-should-be-the-same-in-the-movie-screen",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4509300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens jetFlix Application",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.user_opens_jet_flix_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2378248300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Clicks on any movie name",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.user_clicks_on_any_movie_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3615163200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Validate that movie name is same",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.validate_that_movie_name_is_same()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Verify that movie name in home screen should be the same in the movie screen",
+    "description": "",
+    "id": "verify-that-movie-name-in-home-screen-should-be-the-same-in-the-movie-screen",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/featureFiles/Scenario_1.feature",
+    "tags": [
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-05-25T15:05:09.491Z",
+        "line": 4,
+        "name": "Verify that release date filter in the home screen should be the data in the future",
+        "description": "",
+        "id": "verify-that-release-date-filter-in-the-home-screen-should-be-the-data-in-the-future;verify-that-release-date-filter-in-the-home-screen-should-be-the-data-in-the-future",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 995500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User opens jetFlix Application",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.user_opens_jet_flix_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2656946200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Clicks on menu filter",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.userClicksOnMenuFilter()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1841411000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Clicks on release date filter",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.userClicksOnReleaseDateFilter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2904195800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Clicks on Exit",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.userClicksOnExit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1459327200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Validate that the movie date is in the future",
+            "match": {
+              "location": "stepDefinition.MyStepdefs.validateThatTheMovieDateIsInTheFuture()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Verify that release date filter in the home screen should be the data in the future",
+    "description": "",
+    "id": "verify-that-release-date-filter-in-the-home-screen-should-be-the-data-in-the-future",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/featureFiles/Scenario_2.feature",
+    "tags": [
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
